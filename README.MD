@@ -4,7 +4,7 @@ This fork features patches from Andrew Showers to restore functionality with Fla
 Note that cache restrictions were put in place to ensure graphs are properly updated - adjust according to your needs.
 
 ## Installation
-Flask-cache is required for this patch to work. If no working version is available, use my patched version here: [https://github.com/AndrewAltimit/flask-cache](https://github.com/AndrewAltimit/flask-cache)
+Flask-cache is required for this patch to work. If no working version is available, use my patched version here: [https://github.com/AndrewAltimit/Flask-Cache](https://github.com/AndrewAltimit/Flask-Cache)
 
 For installation details see [http://kaushikraj.com/2015/09/18/sb-admin-2-admin-flask/](http://kaushikraj.com/2015/09/18/sb-admin-2-admin-flask/)
 
