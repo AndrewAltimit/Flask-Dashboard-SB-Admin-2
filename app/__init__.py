@@ -1,7 +1,15 @@
 from flask import Flask, send_from_directory
+from flask_cache import Cache
 import os
 
+cache = Cache(config={'CACHE_TYPE': 'null'})
+
+# Create Flask application
 app = Flask(__name__, static_url_path='')
+
+app.config["CACHE_TYPE"] = "null"
+app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
+cache.init_app(app)
 
 @app.route('/bower_components/<path:path>')
 def send_bower(path):
